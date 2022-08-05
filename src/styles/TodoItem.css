@@ -1,0 +1,29 @@
+.addedTodoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+}
+.addedTodoWrapper__todoElement {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  gap: 0 10px;
+}
+.addedTodoWrapper__todoElement button {
+  border: 1px solid dodgerblue;
+  border-radius: 10px;
+  background-color: white;
+}
+.addedTodoWrapper__button-active {
+  background-color: dodgerblue;
+  color: white;
+}
+.addedTodoWrapper__textInput {
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+/*# sourceMappingURL=TodoItem.css.map */
