@@ -1,0 +1,41 @@
+.listTodoWrapper {
+  resize: horizontal;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 30%;
+  border-right: 5px solid dodgerblue;
+  &__todoWrapper {
+    width: 100%;
+    height: auto;
+  }
+  &__todo {
+    color: gray;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  & h1 {
+    text-align: center;
+  }
+}
+.todo_color-green {
+  color: green;
+}
+.todo_color-blue {
+  color: dodgerblue;
+}
+.listTodoWrapper__todoSearch {
+  & input {
+    margin: auto;
+   height: 30px;
+    width: 100%;
+    padding: 0 5px;
+    outline: none;
+    border: 1px solid dodgerblue {
+      radius: 5px;
+    }
+  }
+}

@@ -1,7 +1,43 @@
-.ListTodoWrapper {
+.listTodoWrapper {
+  resize: horizontal;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
   width: 30%;
-  height: 100%;
   border-right: 5px solid dodgerblue;
+}
+.listTodoWrapper__todoWrapper {
+  width: 100%;
+  height: auto;
+}
+.listTodoWrapper__todo {
+  color: gray;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listTodoWrapper h1 {
+  text-align: center;
+}
+
+.todo_color-green {
+  color: green;
+}
+
+.todo_color-blue {
+  color: dodgerblue;
+}
+
+.listTodoWrapper__todoSearch input {
+  margin: auto;
+  height: 30px;
+  width: 100%;
+  padding: 0 5px;
+  outline: none;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=ListTodo.css.map */

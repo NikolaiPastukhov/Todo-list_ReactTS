@@ -1,0 +1,24 @@
+.pagination {
+  margin: 10px auto;
+  width: 50%;
+  display: flex;
+  gap: 0 20px;
+  justify-content: center;
+  &__button {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid dodgerblue {
+      radius: 5px;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: dodgerblue;
+      color: white;
+    }
+  }
+}
+.active {
+  background-color: dodgerblue;
+  color: white;
+}

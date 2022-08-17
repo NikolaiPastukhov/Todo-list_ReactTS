@@ -1,0 +1,77 @@
+@import '../styles/CheckBox';
+
+.addedTodoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+
+  &__todoElement {
+    border: 1px solid gray {
+      radius: 5px;
+    }
+    padding: 5px 5px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+  }
+
+  &__textInput {
+    cursor: pointer;
+    padding-left: 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+    &:disabled {
+      background-color: white;
+      cursor: default;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    width: 30px;
+    height: 30px;
+    border: 1px solid dodgerblue {
+      radius: 5px;
+    }
+    background-color: white;
+    &:disabled:hover {
+      cursor: default;
+      background-color: white;
+    }
+    &:hover {
+      background-color: dodgerblue;
+    }
+  }
+
+  & .button-active {
+    background-color: dodgerblue;
+    color: white;
+    outline: none;
+  }
+
+  & .textInput-active {
+    cursor: text;
+    border: 1px solid dodgerblue {
+      radius: 5px;
+    }
+  }
+}
+
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+
+
